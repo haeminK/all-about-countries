@@ -1,0 +1,21 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.search input {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+@media (max-width: 530px) {
+    .search {
+        width: 50%;
+    }
+
+}
